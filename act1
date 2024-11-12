@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                width: 300px;
+                min-height: 150px;
+                padding: 20px;
+                border: 2px solid gray;
+                box-shadow: 0px 4px 8px;
+                margin: 0 auto;
+            }
+            .tarjeta h2{
+                color: blue;
+                font-size: 40px;
+            }
+            .tarjeta p{
+                color: gray;
+                font-size: 20px;
+            }
+            .tarjeta button{
+                background-color: blueviolet;
+                color: white;
+                padding: 10px;
+            }
+        </style>
+    </head>
+        <body>
+            <div class="tarjeta">
+                <h2>Jeon Jung Kook</h2>
+                <p>Cantante surcoreano que saltó a la fama como miembro y vocalista del grupo BTS.</p>
+                <button>Contactar</button>
+            </div>
+        </body>
+</html>
