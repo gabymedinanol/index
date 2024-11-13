@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                width: 300px;
+                min-height: 150px;
+                padding: 20px;
+                border: 2px solid gray;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+                margin: 0 auto;
+            }
+            .tarjeta h2{
+                color: blue;
+                font-size: 40px;
+            }
+            .tarjeta p{
+                color: gray;
+                font-size: 20px;
+            }
+            .tarjeta button{
+                background-color: blueviolet;
+                color: white;
+                padding: 10px;
+            }
+        </style>
+    </head>
+        <body>
+            <div class="tarjeta">
+                <h2>Jeon Jung-kook</h2>
+                <p>Es un cantante y bailarín surcoreano. En 2013 debutó como integrante del grupo BTS bajo la compañía Big Hit Music.</p>
+                <button>Contactar</button>
+            </div>
+        </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div.articulo{
+                max-width: 400px;
+                margin: 20px auto;
+                padding: 20px;
+                border: 2px solid #ccc;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            }
+            img{
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            .contenido{
+                padding: 10px;
+            }
+            .contenido h2{
+                color: #333;
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+            .leer-más{
+                background-color: #007BFF;
+                color: white;
+                padding: 8px 12px;
+                text-decoration: none;
+            }
+
+            .leer-más:hover{
+                background-color: #0056b3;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="articulo">
+            <img src="img/Yoongi.jpg_large" alt="Captura" width="100%">
+            <div class="contenido">
+                <h2>Min Yoon-gi y la NBA</h2>
+                <p>Min Yoon-gi o mejor conocido como SUGA por su nombre artístico en el grupo de K-pop "BTS", fue nombrado embajador de la NBA 
+                    el día 6 de abril de 2023. Este fue un gran logro para el artista pues desde joven le ha gustado mucho practicar el deporte "basquetbol".
+                Entra al link para conocer todos los detalles.</p>
+                <a href="https://www.marca.com/mx/basquetbol/nba/2023/04/07/642f56b8268e3e45018b4570.html" class="leer-más">Leer más</a>
+            </div>
+        </div>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div.contenedor{
+                width: 80%;
+                padding: 20px;
+                border: 2px solid gray;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+                margin: 0 auto;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr)
+            }
+
+            .caja{
+                width: 95%;
+                height: 150px;
+                padding: 10px;
+                margin: 10px;
+                border: 1px solid #ccc;
+                text-align: center;
+                line-height: 150px;
+            }
+
+            .caja1{
+                background-color: palevioletred;
+            }
+
+            .caja2{
+                background-color: aqua;
+            }
+
+            .caja3{
+                background-color: yellowgreen;
+            }
+
+            .caja4{
+                background-color: rgb(236, 236, 115);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="contenedor">
+            <div class="caja caja1">
+                Caja número "1"
+            </div>
+            <div class="caja caja2">
+                Caja número "2"
+            </div>
+            <div class="caja caja3">
+                Caja número "3"
+            </div>
+            <div class="caja caja4">
+                Caja número "4"
+            </div>
+        </div>
+    </body>
+</html>
